@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: wheat;
+    background-color: cornflowerblue;
     position: sticky;
     top: 0;
 }
@@ -17,25 +17,26 @@ li {
 
 li a {
     color: black;
-    padding: 50px 30px;
+    padding: 20px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: burlywood;
+    background-color: indigo;
+    color: cornflowerblue;
 }
 
 /**
 body
  */
 body {
-    color: chocolate;
-    background-color: burlywood;
+    color: rebeccapurple;
+    background-color: indigo;
 }
 
 h1 {
     alignment-baseline: center;
-    color: darkred;
+    color: indigo;
     font-family: "Baskerville Old Face";
 }
 
@@ -49,7 +50,7 @@ grid container
 }
 
 .grid-item {
-    background-color: burlywood;
+    background-color: lightskyblue;
     padding: 20px;
     text-align: center;
 }
