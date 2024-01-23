@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/WebTech-and-AppDev-exercises" isTestSource="false" />
+    </content>
+  </component>
+  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
+    <option name="activeLocationsIds" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="405e2bd6-ae2c-4314-aee0-e32ff3376b94" />
+  </component>
+</module>
