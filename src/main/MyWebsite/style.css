@@ -30,8 +30,10 @@ li a:hover {
 body
  */
 body {
+    margin: 0;
     color: rebeccapurple;
     background-color: azure;
+    text-align: center;
 }
 
 h1 {

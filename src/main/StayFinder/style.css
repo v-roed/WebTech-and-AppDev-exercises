@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1a2310;
+    color: #798478;
+}
+
+
+/**
+END
+ */
+
+header {
+    color: #283618;
+    background-color: #798478;
+    font-family: "Sans Serif Collection", serif;
+    font-weight: bold;
+    text-align: right;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #EAE0CC;
+    color: #283618;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #4D6A6D;
+    color: #1a2310;
+}
