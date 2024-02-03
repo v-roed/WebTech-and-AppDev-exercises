@@ -1,14 +1,16 @@
 /**
-navigation bar
+HEADER - navigation bar
  */
+
+header {
+    background-color: #798478;
+    top: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: cornflowerblue;
-    position: sticky;
-    top: 0;
 }
 
 li {
@@ -22,8 +24,8 @@ li a {
 }
 
 li a:hover {
-    background-color: indigo;
-    color: cornflowerblue;
+    background-color: #283618;
+    color: #798478;
 }
 
 /**
@@ -31,14 +33,14 @@ body
  */
 body {
     margin: 0;
-    color: rebeccapurple;
+    color: #1a2310;
     background-color: azure;
     text-align: center;
 }
 
 h1 {
     alignment-baseline: center;
-    color: indigo;
+    color: #283618;
     font-family: "Baskerville Old Face";
 }
 
@@ -52,7 +54,7 @@ grid container
 }
 
 .grid-item {
-    background-color: lightskyblue;
+    background-color: #798478;
     padding: 20px;
     text-align: center;
 }
