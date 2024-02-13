@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header>
+    <ul>
+        <li>
+            <a href="index.html">Go back</a>>
+        </li>
+    </ul>
+</header>
+<body>
+    <h1>This is a form</h1>
+    <form action="mailinglist.php" method="POST">
+        <p>First name</p>
+        <input name="firstname">
+        <p>Last name</p>
+        <input name="lastname">
+        <p>Email</p>
+        <input type="email">
+        <p>Password</p>
+        <input type="password">
+        <br>
+        <p>Check this box</p>
+        <input type="checkbox">
+        <br>
+        <p>Here's a drop down</p>
+        <select></select>
+        <br>
+        <p>Leave me a review</p>
+        <textarea></textarea>
+        <p>How old are you?</p>
+        <ol>
+            <li><input type="radio" name="age" value="under 20"> Under 20</li>
+            <li><input type="radio" name="age" value="20-29"> 20-29</li>
+            <li><input type="radio" name="age" value="30-39"> 30-39</li>
+            <li><input type="radio" name="age" value="40-49"> 40-49</li>
+            <li><input type="radio" name="age" value="over 50"> Over 50</li>
+        </ol>
+        <p>What music do you listen to?</p>
+        <ul>
+            <li> <input type="checkbox" name="genre" value="punk"> Punk rock</li>
+            <li> <input type="checkbox" name="genre" value="pop"> Pop</li>
+            <li> <input type="checkbox" name="genre" value="indie"> Indie</li>
+            <li> <input type="checkbox" name="genre" value="electronic"> Electronic</li>
+        </ul>
+        <br>
+        <input type="submit">
+        <input type="reset" value="Tøm">
+    </form>
+</body>
+</html>
