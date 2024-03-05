@@ -3,7 +3,7 @@ HEADER - navigation bar
  */
 
 header {
-    background-color: #798478;
+    background-color: #81B29A;
     top: 0;
 }
 
@@ -24,8 +24,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #283618;
-    color: #798478;
+    background-color: #3D405B;
+    color: #F4F1DE;
 }
 
 /**
@@ -33,14 +33,14 @@ body
  */
 body {
     margin: 0;
-    color: #1a2310;
-    background-color: azure;
+    color: #3D405B;
+    background-color: #F4F1DE;
     text-align: center;
 }
 
 h1 {
     alignment-baseline: center;
-    color: #283618;
+    color: #3D405B;
     font-family: "Baskerville Old Face";
 }
 
@@ -54,7 +54,7 @@ grid container
 }
 
 .grid-item {
-    background-color: #798478;
+    background-color: #81B29A;
     padding: 20px;
     text-align: center;
 }
@@ -64,4 +64,9 @@ grid container
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+footer {
+    background-color: #3D405B;
+    color: white;
 }
